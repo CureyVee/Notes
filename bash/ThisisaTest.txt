@@ -1,0 +1,2 @@
+This is a test to get use to the commands and understand how they all work.
+escape + :wq w will save the file and q will exit the vim command

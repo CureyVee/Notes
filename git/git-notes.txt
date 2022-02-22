@@ -1,0 +1,31 @@
+What is a repository?
+	A place where we can store things(ex google drive)
+
+What is git?
+	-It is a version control system(VCS) and collaboration tool
+	-edit things and tests a program before bringing it out to the front end
+	-it allows us to share our files in a repository 
+
+What is github?
+	online git hosting service (remote location cloud server)
+
+Centralized vs Distributed VCS
+	-Centralize VCS uses a central location to store all of the source code, data and records.
+	Cons:
+		The remote centralized location can go down and no one accesses it
+		Losing internet at home or work
+	-Distributed VCS creates a copy of the source code on each user's machine
+	Pros:
+		If you lose internet, you can still work on the source code locally
+	
+Coomon git commands:
+	git init: creates a new git repo locally
+	git add [FILENAME]: adds file to staging
+		-git add . : adds all files from the current directory and children diretories
+		-git add -a: adds all changes from any file in the repository to staging
+	git commit -m "message": adds all changes that are in staging to an offical commit LOCALLY
+	git push: sends latest commits from local repo to remote repo
+	git pull: get latest commits from remote repo to local repo
+	git status: view what is in staging
+	git log: displays all commits
+	git clone [Link]: get remote repo to local machine for the first time.

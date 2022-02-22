@@ -1,0 +1,15 @@
+What is bash? 
+	-A shell that is commonly used in linux based systems
+What is linux? 
+	-Opensource operating system & a clone of unix
+Common Bash Commands:
+	-pwd: prints the directory you are currently in
+	-ls: show the context within the directory
+	-cd: move to a different directory
+	-mkdir: make a directory
+	-touch: creating a file within a directory
+	-cat: displays content of a file 
+	-vim: shows context and allows for editing, press i for insert mode
+	-mv: moves file to a different location
+What is a environment variable?
+a key with a value assigned to it
